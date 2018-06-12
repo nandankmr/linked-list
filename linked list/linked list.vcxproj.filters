@@ -18,5 +18,19 @@
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="lists.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arrayStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="linkedStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

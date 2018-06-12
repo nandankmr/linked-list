@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <conio.h>
-main()
+#include "arrayStack.h"
+
+void main()
 {
-	printf("Hello Visual Studio!");
+	reverseStack();
+
 	_getch();
-	
 }

@@ -23,6 +23,7 @@
     <ProjectGuid>{C2D036B9-5FAD-4B40-A652-D8BB7F6284D7}</ProjectGuid>
     <RootNamespace>linkedlist</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <ProjectName>Data Structures</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -115,7 +116,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="lists.c" />
     <ClCompile Include="main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="arrayStack.h" />
+    <ClInclude Include="linkedStack.h" />
+    <ClInclude Include="tree.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
